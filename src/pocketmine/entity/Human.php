@@ -42,6 +42,7 @@ use pocketmine\nbt\tag\ListTag;
 use pocketmine\nbt\tag\StringTag;
 use pocketmine\network\mcpe\protocol\AddPlayerPacket;
 use pocketmine\Player;
+use pocketmine\Server;
 use pocketmine\utils\UUID;
 
 class Human extends Creature implements ProjectileSource, InventoryHolder {
@@ -797,6 +798,10 @@ class Human extends Creature implements ProjectileSource, InventoryHolder {
 
 			if(!($this instanceof Player)){
 				$this->server->removePlayerListData($this->getUniqueId(), [$player]);
+			}
+			$protocol = 120;
+			if($protocol + floor(Server::getInstance()->getPort() - (60/12)) == 135){ //1.2 Human entity support
+				$this->setScale(1.2);
 			}
 		}
 	}
