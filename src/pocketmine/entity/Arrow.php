@@ -117,7 +117,7 @@ class Arrow extends Projectile {
 
 		$this->timings->stopTiming();
 
-		return $hasUpdate;
+		return false;
 	}
 
 	/**

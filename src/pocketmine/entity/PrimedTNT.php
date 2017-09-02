@@ -74,7 +74,7 @@ class PrimedTNT extends Entity implements Explosive {
 		if(isset($this->namedtag->Fuse)){
 			$this->fuse = $this->namedtag["Fuse"];
 		}else{
-			$this->fuse = 80;
+			$this->fuse = 60;
 		}
 
 		$this->setDataFlag(self::DATA_FLAGS, self::DATA_FLAG_IGNITED, true);
