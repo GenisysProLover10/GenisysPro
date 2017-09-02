@@ -1452,9 +1452,7 @@ abstract class Entity extends Location implements Metadatable {
 
 		$this->timings->stopTiming();
 
-		//if($this->isStatic())
-		return $hasUpdate;
-		//return !($this instanceof Player);
+		return false;
 	}
 
 	public final function scheduleUpdate(){
