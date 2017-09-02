@@ -27,10 +27,6 @@ use pocketmine\Player;
 class Ghast extends FlyingAnimal {
 	const NETWORK_ID = 41;
 
-	public $width = 6;
-	public $length = 6;
-	public $height = 6;
-
 	/**
 	 * @return string
 	 */

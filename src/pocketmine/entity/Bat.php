@@ -33,10 +33,6 @@ class Bat extends FlyingAnimal {
 
 	const DATA_IS_RESTING = 16;
 
-	public $width = 0.6;
-	public $length = 0.6;
-	public $height = 0.6;
-
 	public $flySpeed = 0.8;
 	public $switchDirectionTicks = 100;
 

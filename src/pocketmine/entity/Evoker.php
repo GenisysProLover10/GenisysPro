@@ -31,10 +31,6 @@ use pocketmine\Player;
 class Evoker extends Monster {
 	const NETWORK_ID = 104;
 
-	public $width = 0.6;
-	public $length = 0.6;
-	public $height = 0;
-
 	public $dropExp = [5, 5];
 
 	/**

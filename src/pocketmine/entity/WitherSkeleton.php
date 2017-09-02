@@ -31,10 +31,6 @@ use pocketmine\Player;
 class WitherSkeleton extends Monster {
 	const NETWORK_ID = 48;
 
-	public $width = 0.3;
-	public $length = 0.9;
-	public $height = 0;
-
 	public $dropExp = [5, 5];
 
 	/**

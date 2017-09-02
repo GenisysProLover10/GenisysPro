@@ -38,6 +38,10 @@ abstract class Projectile extends Entity {
 
 	const DATA_SHOOTER_ID = 17;
 
+	public $width = 0.25;
+	public $height = 0.25;
+	public $length = 0.25;
+
 	/** @var Entity */
 	public $shootingEntity = null;
 	protected $damage = 0;

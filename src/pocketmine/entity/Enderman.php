@@ -27,10 +27,6 @@ use pocketmine\Player;
 class Enderman extends Monster {
 	const NETWORK_ID = 38;
 
-	public $width = 0.3;
-	public $length = 0.9;
-	public $height = 1.8;
-
 	public $dropExp = [5, 5];
 
 	/**

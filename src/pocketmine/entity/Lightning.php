@@ -32,10 +32,6 @@ use pocketmine\Player;
 class Lightning extends Animal {
 	const NETWORK_ID = 93;
 
-	public $width = 0.3;
-	public $length = 0.9;
-	public $height = 1.8;
-
 	/**
 	 * @return string
 	 */

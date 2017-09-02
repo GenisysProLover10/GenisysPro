@@ -32,10 +32,6 @@ use pocketmine\Player;
 class ElderGuardian extends Animal {
 	const NETWORK_ID = 50;
 
-	public $width = 1.45;
-	public $length = 1.45;
-	public $height = 0;
-
 	public $dropExp = [5, 5];
 
 	/**

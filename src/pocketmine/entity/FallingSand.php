@@ -39,10 +39,6 @@ use pocketmine\Player;
 class FallingSand extends Entity {
 	const NETWORK_ID = 66;
 
-	public $width = 0.98;
-	public $length = 0.98;
-	public $height = 0.98;
-
 	protected $gravity = 0.04;
 	protected $drag = 0.02;
 	protected $blockId = 0;

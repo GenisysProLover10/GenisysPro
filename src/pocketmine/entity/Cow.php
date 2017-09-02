@@ -30,10 +30,6 @@ use pocketmine\Player;
 class Cow extends Animal {
 	const NETWORK_ID = 11;
 
-	public $width = 0.3;
-	public $length = 0.9;
-	public $height = 1.4;
-
 	public $dropExp = [1, 3];
 
 	/**

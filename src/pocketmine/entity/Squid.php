@@ -33,10 +33,6 @@ use pocketmine\Player;
 class Squid extends WaterAnimal implements Ageable {
 	const NETWORK_ID = 17;
 
-	public $width = 0.95;
-	public $length = 0.95;
-	public $height = 0.95;
-
 	public $dropExp = [1, 3];
 
 	/** @var Vector3 */

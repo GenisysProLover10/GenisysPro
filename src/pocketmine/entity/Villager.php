@@ -39,10 +39,6 @@ class Villager extends Creature implements NPC, Ageable {
 
 	const DATA_PROFESSION_ID = 16;
 
-	public $width = 0.6;
-	public $length = 0.6;
-	public $height = 1.8;
-
 	/**
 	 * @return string
 	 */

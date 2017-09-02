@@ -40,9 +40,6 @@ class Minecart extends Vehicle {
     const STATE_ON_RAIL = 1;
     const STATE_OFF_RAIL = 2;
 
-    public $height = 0.7;
-    public $width = 0.98;
-
     public $drag = 0.1;
     public $gravity = 0.5;
 

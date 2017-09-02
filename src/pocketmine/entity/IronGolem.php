@@ -28,10 +28,6 @@ use pocketmine\Player;
 class IronGolem extends Animal {
 	const NETWORK_ID = 20;
 
-	public $width = 0.3;
-	public $length = 0.9;
-	public $height = 2.8;
-
 	public function initEntity(){
 		$this->setMaxHealth(100);
 		parent::initEntity();

@@ -32,10 +32,6 @@ class EnderPearl extends Projectile {
 
 	const NETWORK_ID = 87;
 
-	public $width = 0.25;
-	public $length = 0.25;
-	public $height = 0.25;
-
 	protected $gravity = 0.03;
 	protected $drag = 0.01;
 

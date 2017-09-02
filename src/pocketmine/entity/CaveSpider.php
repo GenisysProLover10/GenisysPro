@@ -27,10 +27,6 @@ use pocketmine\Player;
 class CaveSpider extends Monster {
 	const NETWORK_ID = 40;
 
-	public $width = 1;
-	public $length = 1;
-	public $height = 0.5;
-
 	public $dropExp = [5, 5];
 
 	/**

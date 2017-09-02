@@ -30,10 +30,6 @@ use pocketmine\Player;
 class Mooshroom extends Animal {
 	const NETWORK_ID = 16;
 
-	public $width = 0.3;
-	public $length = 0.9;
-	public $height = 1.8;
-
 	/**
 	 * @return string
 	 */

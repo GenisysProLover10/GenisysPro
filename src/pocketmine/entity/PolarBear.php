@@ -31,10 +31,6 @@ use pocketmine\Player;
 class PolarBear extends Monster {
 	const NETWORK_ID = 28;
 
-	public $width = 0.6;
-	public $length = 0.9;
-	public $height = 0;
-
 	public $dropExp = [5, 5];
 
 

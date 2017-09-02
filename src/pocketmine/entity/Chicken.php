@@ -28,10 +28,6 @@ use pocketmine\Player;
 class Chicken extends Animal {
 	const NETWORK_ID = 10;
 
-	public $width = 0.6;
-	public $length = 0.6;
-	public $height = 0;
-
 	public $dropExp = [1, 3];
 
 	/**

@@ -30,10 +30,6 @@ use pocketmine\Player;
 class Blaze extends Monster {
 	const NETWORK_ID = 43;
 
-	public $width = 0.3;
-	public $length = 0.9;
-	public $height = 1.8;
-
 	public $dropExp = [10, 10];
 
 	/**

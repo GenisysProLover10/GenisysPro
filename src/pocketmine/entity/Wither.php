@@ -31,10 +31,6 @@ use pocketmine\item\Item as ItemItem;
 class Wither extends FlyingAnimal {
 	const NETWORK_ID = 52;
 
-	public $width = 0.72;
-	public $length = 6;
-	public $height = 2;
-
 	public $dropExp = 50;
 
 	/**

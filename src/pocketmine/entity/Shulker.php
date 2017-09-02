@@ -31,10 +31,6 @@ use pocketmine\Player;
 class Shulker extends Monster {
 	const NETWORK_ID = 54;
 
-	public $width = 0.5;
-	public $length = 0.9;
-	public $height = 0;
-
 	public $dropExp = [5, 5];
 
 
