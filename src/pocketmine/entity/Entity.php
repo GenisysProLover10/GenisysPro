@@ -1452,7 +1452,7 @@ abstract class Entity extends Location implements Metadatable {
 
 		$this->timings->stopTiming();
 
-		return false;
+		return $hasUpdate;
 	}
 
 	public final function scheduleUpdate(){
