@@ -2546,10 +2546,6 @@ class Server{
 		$this->nextTick = microtime(true);
 		while($this->isRunning){
 			$this->tick();
-			$next = $this->nextTick - 0.0001;
-			if($next > microtime(true)){
-				@time_sleep_until($next);
-			}
 		}
 	}
 
